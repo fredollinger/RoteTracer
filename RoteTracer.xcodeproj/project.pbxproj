@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8EE6E1653086F74000DA34EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EE6E14F3086F73E00DA34EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EE6E1563086F73E00DA34EF;
+			remoteInfo = RoteTracer;
+		};
+		8EE6E16F3086F74000DA34EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EE6E14F3086F73E00DA34EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EE6E1563086F73E00DA34EF;
+			remoteInfo = RoteTracer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EE6E1573086F73E00DA34EF /* RoteTracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoteTracer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE6E1643086F74000DA34EF /* RoteTracerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoteTracerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE6E16E3086F74000DA34EF /* RoteTracerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoteTracerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8EE6E1593086F73E00DA34EF /* RoteTracer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoteTracer;
+			sourceTree = "<group>";
+		};
+		8EE6E1673086F74000DA34EF /* RoteTracerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoteTracerTests;
+			sourceTree = "<group>";
+		};
+		8EE6E1713086F74000DA34EF /* RoteTracerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoteTracerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EE6E1543086F73E00DA34EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		8EE6E1613086F74000DA34EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		8EE6E16B3086F74000DA34EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EE6E14E3086F73E00DA34EF = {
+			isa = PBXGroup;
+			children = (
+				8EE6E1593086F73E00DA34EF /* RoteTracer */,
+				8EE6E1673086F74000DA34EF /* RoteTracerTests */,
+				8EE6E1713086F74000DA34EF /* RoteTracerUITests */,
+				8EE6E1583086F73E00DA34EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EE6E1583086F73E00DA34EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EE6E1573086F73E00DA34EF /* RoteTracer.app */,
+				8EE6E1643086F74000DA34EF /* RoteTracerTests.xctest */,
+				8EE6E16E3086F74000DA34EF /* RoteTracerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EE6E1563086F73E00DA34EF /* RoteTracer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE6E1763086F74000DA34EF /* Build configuration list for PBXNativeTarget "RoteTracer" */;
+			buildPhases = (
+				8EE6E1533086F73E00DA34EF /* Sources */,
+				8EE6E1543086F73E00DA34EF /* Frameworks */,
+				8EE6E1553086F73E00DA34EF /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				8EE6E1593086F73E00DA34EF /* RoteTracer */,
+			);
+			name = RoteTracer;
+			productName = RoteTracer;
+			productReference = 8EE6E1573086F73E00DA34EF /* RoteTracer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EE6E1633086F74000DA34EF /* RoteTracerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE6E1793086F74000DA34EF /* Build configuration list for PBXNativeTarget "RoteTracerTests" */;
+			buildPhases = (
+				8EE6E1603086F74000DA34EF /* Sources */,
+				8EE6E1613086F74000DA34EF /* Frameworks */,
+				8EE6E1623086F74000DA34EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EE6E1663086F74000DA34EF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8EE6E1673086F74000DA34EF /* RoteTracerTests */,
+			);
+			name = RoteTracerTests;
+			productName = RoteTracerTests;
+			productReference = 8EE6E1643086F74000DA34EF /* RoteTracerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EE6E16D3086F74000DA34EF /* RoteTracerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE6E17C3086F74000DA34EF /* Build configuration list for PBXNativeTarget "RoteTracerUITests" */;
+			buildPhases = (
+				8EE6E16A3086F74000DA34EF /* Sources */,
+				8EE6E16B3086F74000DA34EF /* Frameworks */,
+				8EE6E16C3086F74000DA34EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EE6E1703086F74000DA34EF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8EE6E1713086F74000DA34EF /* RoteTracerUITests */,
+			);
+			name = RoteTracerUITests;
+			productName = RoteTracerUITests;
+			productReference = 8EE6E16E3086F74000DA34EF /* RoteTracerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EE6E14F3086F73E00DA34EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					8EE6E1563086F73E00DA34EF = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					8EE6E1633086F74000DA34EF = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 8EE6E1563086F73E00DA34EF;
+					};
+					8EE6E16D3086F74000DA34EF = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 8EE6E1563086F73E00DA34EF;
+					};
+				};
+			};
+			buildConfigurationList = 8EE6E1523086F73E00DA34EF /* Build configuration list for PBXProject "RoteTracer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EE6E14E3086F73E00DA34EF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8EE6E1583086F73E00DA34EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EE6E1563086F73E00DA34EF /* RoteTracer */,
+				8EE6E1633086F74000DA34EF /* RoteTracerTests */,
+				8EE6E16D3086F74000DA34EF /* RoteTracerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EE6E1553086F73E00DA34EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		8EE6E1623086F74000DA34EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		8EE6E16C3086F74000DA34EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EE6E1533086F73E00DA34EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		8EE6E1603086F74000DA34EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		8EE6E16A3086F74000DA34EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EE6E1663086F74000DA34EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EE6E1563086F73E00DA34EF /* RoteTracer */;
+			targetProxy = 8EE6E1653086F74000DA34EF /* PBXContainerItemProxy */;
+		};
+		8EE6E1703086F74000DA34EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EE6E1563086F73E00DA34EF /* RoteTracer */;
+			targetProxy = 8EE6E16F3086F74000DA34EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8EE6E1743086F74000DA34EF /* Debug configuration for PBXProject "RoteTracer" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EE6E1753086F74000DA34EF /* Release configuration for PBXProject "RoteTracer" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EE6E1773086F74000DA34EF /* Debug configuration for PBXNativeTarget "RoteTracer" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.RoteTracer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EE6E1783086F74000DA34EF /* Release configuration for PBXNativeTarget "RoteTracer" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.RoteTracer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EE6E17A3086F74000DA34EF /* Debug configuration for PBXNativeTarget "RoteTracerTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.RoteTracerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoteTracer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoteTracer";
+			};
+			name = Debug;
+		};
+		8EE6E17B3086F74000DA34EF /* Release configuration for PBXNativeTarget "RoteTracerTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.RoteTracerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoteTracer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoteTracer";
+			};
+			name = Release;
+		};
+		8EE6E17D3086F74000DA34EF /* Debug configuration for PBXNativeTarget "RoteTracerUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.RoteTracerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoteTracer;
+			};
+			name = Debug;
+		};
+		8EE6E17E3086F74000DA34EF /* Release configuration for PBXNativeTarget "RoteTracerUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.RoteTracerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoteTracer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EE6E1523086F73E00DA34EF /* Build configuration list for PBXProject "RoteTracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE6E1743086F74000DA34EF /* Debug configuration for PBXProject "RoteTracer" */,
+				8EE6E1753086F74000DA34EF /* Release configuration for PBXProject "RoteTracer" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		8EE6E1763086F74000DA34EF /* Build configuration list for PBXNativeTarget "RoteTracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE6E1773086F74000DA34EF /* Debug configuration for PBXNativeTarget "RoteTracer" */,
+				8EE6E1783086F74000DA34EF /* Release configuration for PBXNativeTarget "RoteTracer" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		8EE6E1793086F74000DA34EF /* Build configuration list for PBXNativeTarget "RoteTracerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE6E17A3086F74000DA34EF /* Debug configuration for PBXNativeTarget "RoteTracerTests" */,
+				8EE6E17B3086F74000DA34EF /* Release configuration for PBXNativeTarget "RoteTracerTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		8EE6E17C3086F74000DA34EF /* Build configuration list for PBXNativeTarget "RoteTracerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE6E17D3086F74000DA34EF /* Debug configuration for PBXNativeTarget "RoteTracerUITests" */,
+				8EE6E17E3086F74000DA34EF /* Release configuration for PBXNativeTarget "RoteTracerUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EE6E14F3086F73E00DA34EF /* Project object */;
+	validationLevel = 1;
+}
