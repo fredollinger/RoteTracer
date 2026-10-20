@@ -1,0 +1,39 @@
+
+# macOS
+.DS_Store
+
+# Xcode user-specific settings
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.hmap
+
+# Xcode build products
+build/
+DerivedData/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods (uncomment if using CocoaPods)
+# Pods/
+
+# Carthage (uncomment if using Carthage)
+# Carthage/Build/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+Secrets.swift
+
+# Temporary files
+*.tmp
+*.swp
+*.orig
