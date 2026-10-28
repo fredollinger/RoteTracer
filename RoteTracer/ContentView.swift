@@ -1,19 +1,15 @@
-//
-//  ContentView.swift
-//  RoteTracer
-//
-//  Created by Frederick Ollinger on 10/19/26.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @State private var trackingText = ""
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(alignment: .leading, spacing: 16) {
+            Text("What are you tracking?")
+                .font(.title)
+
+            TextField("Enter what you want to track", text: $trackingText)
+                .textFieldStyle(.roundedBorder)
         }
         .padding()
     }
@@ -22,3 +18,4 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
